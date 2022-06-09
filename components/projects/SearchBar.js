@@ -5,6 +5,7 @@ import { useTransition, animated } from 'react-spring'
 const SearchBar = ({ isVisible, setSearchProjects }) => {
   const [value, setValue] = useState('')
 
+  // 
   useEffect(() => {
     const search = isVisible ? value : ''
     const timeOutId = setTimeout(() => setSearchProjects(search), 500)
@@ -67,7 +68,7 @@ const Input = styled.input`
   border: 1px solid #dddddd;
 
   font-family: 'BigPixel';
-  font-size: 1rem;
+  font-size: 1.3rem;
 
   ::placeholder {
     color: #dddddd;

@@ -1,0 +1,61 @@
+
+.AboutUs{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+
+.headerName{
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	font-family: 'BigPixel';
+}
+
+.AboutUs_Page{
+	display: flex;
+	flex-direction: column;
+	overflow: auto;
+    height: auto;
+    padding: .5rem;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: none;
+	background-color: aqua;
+}
+
+.AboutUs_Page::-webkit-scrollbar {
+    display: none;
+}
+
+.description{
+	max-width: 93ch;
+	text-align: justify;
+} 
+
+.content{
+	padding: 0px 20px;
+	margin-bottom: 20px;
+}
+
+.title_about_link{
+	color: red;
+}
+
+.details{
+	margin-bottom: 40px;
+}
+
+.container{
+	margin-left: 5%;
+}
+
+.Projectsbutton{
+    padding-left: 20px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

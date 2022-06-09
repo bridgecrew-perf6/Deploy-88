@@ -1,0 +1,37 @@
+.wrapper{
+    display: flex;
+    flex-direction: row;
+}
+
+.main{
+    flex:1;
+}
+
+.gallery{
+    flex: 7;
+}
+
+.Infobutton{
+    padding: 0 40px;
+    margin-bottom: 40px;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Infobutton:hover{
+    color: red;
+}
+
+.Projectsbutton{
+    align-items: center;
+    padding-left: 40px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

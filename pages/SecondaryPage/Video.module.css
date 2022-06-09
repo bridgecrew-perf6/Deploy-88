@@ -1,0 +1,38 @@
+.Video{
+    display: flex;
+    flex-direction: row;
+}
+
+.headerName{
+	margin-top: 20px;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	font-family: 'BigPixel';
+}
+
+.video__content{
+    margin-left: 5%;
+}
+
+.title_about_link{
+	color: red;
+	margin-top: 10px;
+}
+
+.description{
+	text-align: justify;
+    margin-bottom: 30px;
+	text-align: justify;
+	max-width: 100ch;
+	font-size: 15px;
+} 
+
+.Projectsbutton{
+    padding-left: 20px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

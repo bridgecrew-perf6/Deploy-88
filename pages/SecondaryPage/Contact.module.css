@@ -1,0 +1,90 @@
+.about_page{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -13.5%;
+    margin-left: 25%;
+}
+
+.social_media{
+    margin-top: 50px;
+    color: blue;
+}
+
+.social_title a:hover, .social_title a.active {
+    text-decoration: none;
+    color: #ff0000;
+    cursor: pointer;
+}
+
+.social_logo > a {
+    margin-left: 5px;
+}
+
+.office_address{
+    margin-top: 80px;
+}
+  /* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 20%;
+    padding-right: 80px;
+    height: 100px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.address_describe{
+    padding-top: 15px;
+}
+
+
+.office_address{
+    padding-top: 60px;
+}
+
+.address_two{
+    padding-top: 110px;
+}
+
+
+/* jobs  */
+
+.container {
+    /* Align sub-items to top */
+    align-items: start;
+    display: flex;
+}
+
+.container__media {
+    margin-right: 16px;
+
+    /* Set the width for the media object */
+    width: 200px;
+}
+
+.container__content {
+    /* Take the remaining width */
+    flex: 1;
+}
+
+.headerName{
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	font-family: 'BigPixel';
+}
+
+.Projectsbutton{
+    padding-left: 20px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

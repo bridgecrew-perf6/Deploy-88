@@ -3,6 +3,7 @@ import { Tooltip } from 'react-tippy'
 
 import { Button } from '../styled/Button'
 import Info from '../info/Info'
+import Link from 'next/link';
 
 const ProjectsOrderer = ({ orderer, setGroupProjectsBy }) => {
   function isActive(type) {
@@ -12,9 +13,11 @@ const ProjectsOrderer = ({ orderer, setGroupProjectsBy }) => {
   return (
     <Container>
       <Divider>
-        <Tooltip html={<Info />} position="top" size="regular" theme='light' interactive={true}>
-          <Button>Info</Button>
-        </ Tooltip>
+        {/* <Tooltip html={<Info />} position="top" size="regular" theme='light' interactive={true}> */}
+
+         <Button><Link href="/SecondaryPage/AboutUs">Info</Link></Button>
+        {/* </Tooltip> */}
+        
       </Divider>
       <Divider mobileHide={true} >
         <Button isActive={isActive('year')} onClick={() => setGroupProjectsBy('year')}>Chronological</Button>
@@ -24,7 +27,9 @@ const ProjectsOrderer = ({ orderer, setGroupProjectsBy }) => {
         <Button isActive={isActive('status')} onClick={() => setGroupProjectsBy('status')}>Status</Button>
       </Divider>
       <Divider>
-        <Button>All projects</Button>
+      <Link href="#">
+        <Button isActive={isActive('year')} onClick={() => setGroupProjectsBy('year')}>All projects</Button>
+      </Link>
       </Divider>
     </Container>
   )

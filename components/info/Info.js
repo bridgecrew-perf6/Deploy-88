@@ -19,6 +19,7 @@ const Info = () => {
         </a>
       </IconsContainer>
     </FlexContainer>
+
   )
 }
 

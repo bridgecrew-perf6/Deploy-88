@@ -1,0 +1,25 @@
+.Navbar{
+    margin-right: 200px;
+    top: 0px;
+    position: sticky;
+}
+div > .nav_item{
+    display: flex;
+    flex-direction: row;
+    padding: 10px 25px;
+    justify-content: space-between;
+}
+
+.navbar_content{
+    padding-left: 20px;
+    margin-top: 60px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+.nav_item{
+    margin-bottom: 5px;
+}
+.nav_item:hover{
+    color: red;
+
+}

@@ -1,16 +1,47 @@
 // domain.com/projects/projectSlug
 import Head from 'next/head'
-import Image from 'next/image'
+import InfoNavbar from '../../../components/projects/InfoNavbar'
 import { projectsApi } from '../../../lib/api'
+import Gallery from '../../../components/ImageDetail'
+import { Button } from '@material-ui/core'
+import Link from 'next/link';
+import styles from "./index.module.css"
 
+const LOCAL_URL = process.env.NEXT_PUBLIC_CMS_LOCALHOST
 const projectDetails = ({ project }) => {
-  return (
+
+  const localIcon = LOCAL_URL + project.icon.url
+  const localIconPreview = LOCAL_URL + project.iconPreview.url
+  const CoverImg = LOCAL_URL + project.cover.url
+
+
+   return (
     <>
       <Head>
         <title>{project.title}</title>
         <meta name="description" content={project.description} />
       </Head>
-      <h1>{project.title}</h1>
+        {/* <InfoNavbar/> */}
+        <Link href="/projects">
+            <a className={styles.Projectsbutton}>Projects</a>
+          </Link>
+      <div className={styles.wrapper}>
+          <div className={styles.main}>
+            <Link href="/SecondaryPage/AboutUs">
+              <a className={styles.Infobutton}>Info</a>
+            </Link>
+          </div>
+
+          {/* Slider Code */}
+          <div className={styles.gallery}>
+            <Gallery 
+              thumbnailUrl={localIconPreview} 
+              name={project.title}
+              coverImg = {CoverImg}
+            />
+          </div>
+      </div>
+
     </>
   )
 }

@@ -17,6 +17,6 @@ export const Button = styled.button`
   }
 
   @media screen and (min-width: 1068px) {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
   }
 `

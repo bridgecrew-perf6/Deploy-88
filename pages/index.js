@@ -6,7 +6,9 @@ import styled from 'styled-components'
 const Home = () => {
   useEffect(() => {
     router.push('/projects')
-  })
+  }) 
+
+  
 
   return null
 }

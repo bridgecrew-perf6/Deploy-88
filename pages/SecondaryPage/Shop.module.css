@@ -1,0 +1,50 @@
+.Shop__Page{
+    display: flex;
+}
+
+.headerName{
+	margin-top: 20px;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	font-family: 'BigPixel';
+}
+
+
+.container{
+    margin-left: 5%;
+}
+
+.boxContainer{
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.product{
+	font-size: 1.7em;
+	margin: 30px 0 30px 20px;
+	font-family: 'BigPixel';
+}
+
+.title_about_link{
+	color: red;
+    font-size: 14px;
+}
+
+.details{
+    margin-left: 30px;
+}
+
+.description{
+    font-size: 13px;
+    text-align: justify;
+}
+
+.Projectsbutton{
+    padding-left: 20px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

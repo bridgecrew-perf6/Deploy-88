@@ -1,0 +1,38 @@
+.jobs{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper{
+    margin-left: 5%;
+}
+
+.headerName{
+	margin-top: 20px;
+	font-size: 2.5em;
+	margin-bottom: 10px;
+	font-family: 'BigPixel';
+}
+
+.title_about_link{
+	color: red;
+	margin-top: 10px;
+}
+
+.description{
+	text-align: justify;
+    font-size: 14px;
+    max-width: 100ch;
+    margin: 10px 0;
+} 
+
+.Projectsbutton{
+    padding-left: 20px;
+    font-family: 'BigPixel';
+    font-size: 1.3rem;
+}
+
+.Projectsbutton:hover{
+    color: red;
+}

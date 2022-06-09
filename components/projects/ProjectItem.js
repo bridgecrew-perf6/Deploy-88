@@ -31,7 +31,7 @@ const ProjectItem = ({ project }) => {
           </Divider>
         </Link>
         <Title>{project.shortTitle}</Title>
-      </ Tooltip>
+      </Tooltip>
     </Project>
   )
 }

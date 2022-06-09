@@ -10,7 +10,7 @@ const ProjectsNavbar = ({ setSearchProjects }) => {
   return (
     <Container>
       <Divider>
-        <Link href="#" as="a">BIG</Link>
+        <Link href="#" as="a">Craft Space</Link>
       </Divider>
       <SearchBar isVisible={isUserSearching} setSearchProjects={setSearchProjects} />
       <Divider>

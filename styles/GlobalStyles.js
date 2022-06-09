@@ -30,14 +30,14 @@ const GlobalStyles = createGlobalStyle`
 
     // laptop
     @media (min-width: 1200px) {
-      --icon-size: 36px;
+      --icon-size: 45px;
       --gap-width: 0.5rem;
       --col-height: 31rem;
     }
 
     // desktop
     @media (min-width: 1600px) {
-      --icon-size: 36px;
+      --icon-size: 45px;
       --col-height: 40rem;
     }
   }
